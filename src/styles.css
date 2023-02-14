@@ -23,7 +23,7 @@ body {
 .p1 {
     font-family: 'Product Sans Medium', sans-serif;
     color: #b2aeb9;
-    font-size: 42px;
+    font-size: 19px;
 }
 
 .p2 {
@@ -33,10 +33,6 @@ body {
 
 h1, h4 {
     font-family: 'Product Sans Black', sans-serif;
-}
-
-.h1 {
-    font-size: 100px;
 }
 
 h2 {
