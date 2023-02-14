@@ -1,0 +1,51 @@
+body {
+    background-color: #f3f2f7;
+}
+
+.navbar-nav > li > #login{
+    margin-right:10px;
+}
+
+#login {
+    color: #4d4cfb;
+    border-color: #4d4cfb;
+}
+
+#signup, #submit {
+    background-color: #4d4cfb;
+    color: white;
+}
+
+.Logo {
+    width: 580px;
+}
+
+.p1 {
+    font-family: 'Product Sans Medium', sans-serif;
+    color: #b2aeb9;
+    font-size: 42px;
+}
+
+.p2 {
+    font-family: 'Product Sans', sans-serif;
+    color: black;
+}
+
+h1, h4 {
+    font-family: 'Product Sans Black', sans-serif;
+}
+
+.h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Product Sans Black', sans-serif;
+    color: #212c67;
+}
+
+h5 {
+    font-family: 'Product Sans Thin', sans-serif;
+    font-style: italic;
+    color: #acb1ce;
+}

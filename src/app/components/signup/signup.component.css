@@ -1,0 +1,214 @@
+body {
+    background-color: #f3f2f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-x {
+    padding: 4rem 0;
+
+}
+
+h1 {
+    margin: 10px 0px 10px;
+    font-size: 20px;
+}
+
+p {
+    color: #acacac;
+    font-size: 10px;
+}
+
+
+.form-img {
+    background-image: url("assets/svg/rafiki.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    padding: 40px;
+    border-radius: 1rem;
+    background-color: #fff;
+    width: 40%;
+}
+
+form input {
+    width: 90%;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: solid 1.5px #eee;
+    border-radius: 6px;
+    outline: none;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+#submit {
+    color: #fff;
+    background-color: #5c53ef;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    border: 0;
+    width: 95%;
+}
+
+label {
+    font-size: 12px;
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: #5c53ef;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+label:active {
+    color: #5c53ef;
+}
+
+input:active {
+    border: 1px solid #5c53ef;
+}
+
+.checkboxthingy input {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.checkboxthingy label {
+    font-size: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 95%;
+    padding: 0.4rem;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    border: solid 1.5px #eee;
+    outline: none;
+}
+
+.left-input select {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+.right-input input {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.phonethingy {
+    display: flex;
+    width: 91.5%;
+    border: 1.5px solid #eee;
+    padding: 3px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form {
+        width: 50%;
+    }
+
+    .form-img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .form {
+        width: 45%;
+    }
+
+    .form-img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .form {
+        width: 65%;
+    }
+
+    .form-img {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .form {
+        width: 55%;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .form {
+        width: 70%;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .form {
+        width: 100%;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .form {
+        width: 48%;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+}
