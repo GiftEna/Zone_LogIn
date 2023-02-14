@@ -23,7 +23,7 @@ p {
 
 
 .form-img {
-    background-image: url("assets/svg/rafiki.svg");
+    background-image: url("../../../assets/svg/rafiki.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
