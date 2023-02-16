@@ -100,12 +100,12 @@ input:active {
 .checkboxthingy label {
     font-size: 10px;
     width: 100%;
-    height: 20px;
 }
 
 .flex {
     display: flex;
     margin-bottom: 5px;
+    align-items: center;
 }
 
 select {
