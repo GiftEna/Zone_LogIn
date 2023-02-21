@@ -27,7 +27,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
+    width: 80%;
     height: 100vh;
 }
 
@@ -142,19 +142,29 @@ select {
     border-radius: 6px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 1183px) {
     .form {
-        width: 50%;
+        width: 35%;
     }
 
     .form-img {
-        width: 90%;
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 1182px) {
     .form {
         width: 45%;
+    }
+
+    .form-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .form {
+        width: 50%;
     }
 
     .form-img {
