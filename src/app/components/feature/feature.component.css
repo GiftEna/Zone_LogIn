@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
     .col{
         align-items: center;
         display: flex;
@@ -7,3 +7,26 @@
     }
 }
 
+@media only screen and (max-width: 720px) {
+    .col{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box1{
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .box1{
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .box1{
+        width: 80% !important;
+    }
+}
