@@ -142,6 +142,17 @@ select {
     border-radius: 6px;
 }
 
+input,
+select {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+}
+
+select{
+    width: 90%;
+}
+
 @media only screen and (min-width: 1183px) {
     .form {
         width: 35%;
