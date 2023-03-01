@@ -14,13 +14,13 @@ body {
 h1 {
     margin: 10px 0px 10px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 p {
     color: #acacac;
     font-size: 10px;
 }
-
 
 .form-img {
     background-image: url("../../../assets/svg/rafiki.svg");
@@ -39,10 +39,10 @@ p {
 }
 
 .form {
-    padding: 40px;
+    padding: 30px;
     border-radius: 1rem;
-    background-color: #fff;
-    width: 40%;
+    background-color: #fff; 
+    width: 25%;
 }
 
 form input {
