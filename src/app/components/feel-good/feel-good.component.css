@@ -98,6 +98,9 @@
 }
 
 @media only screen and (max-width: 335px) {
+    .generaltext{
+        width: 100%;
+    }
     .beyourself{
         padding-left: 2rem;
     }

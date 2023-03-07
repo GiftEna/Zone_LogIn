@@ -1,11 +1,24 @@
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 593px) {
     .logo{
-        width: 170%;
+        width: 120%;
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 480px) {
+    .logo{
+        width: 130%;
+    }
+}
+
+@media only screen and (max-width: 335px) {
     .logo{
         width: 150%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .logo{
+        width: 200%;
     }
 }
