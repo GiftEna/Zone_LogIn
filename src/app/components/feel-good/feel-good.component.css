@@ -1,57 +1,121 @@
 .beyourself{
-   padding-left: 7rem;
+   padding-left: 10rem;
 }
 
-@media only screen and (max-width: 480px) {
+.googleplay{
+    margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 1250px) {
     .beyourself{
-        margin:0 !important;
-    }
-    .everything{
-        flex-direction: column;
-    }
-    .AppStores{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
+        padding-left: 8rem;
     }
 }
 
-@media only screen and (max-width: 540px) {
-    .generaltext{
-        margin: 20px;
-    }
+@media only screen and (max-width:1138px){
     .beyourself{
-        margin:0 !important;
-    }
-    .everything{
-        flex-direction: column;
-    }
-    .AppStores{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
+        padding-left: 3rem;
     }
 }
 
-@media only screen and (max-width: 720px) {
-    .generaltext{
-        margin: 20px;
-    }
-    .beyourself{
-        margin:0 !important;
-    }
-    .everything{
-        flex-direction: column;
-    }
-    .AppStores{
-        display: flex;
-        justify-content: space-around;
+@media only screen and (max-width: 1080px) {
+    .group{
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 960px) {
-    .group img{
+    .beyourself{
+        padding-left: 6rem;
+    }
+
+    .group{
         padding: 0 !important;
+        width: 110%;
+        margin-right: 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 870px) {
+    .beyourself{
+        padding-left: 2rem;
+    }
+    .everything{
+        flex-direction: column;
+    }
+    .AppStores{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+    .group{
+        width: 95%;
+        justify-content: center;
     }
 }
+
+@media only screen and (max-width: 720px) {
+    .beyourself{
+        padding-left: 2rem;
+    }
+    .everything{
+        flex-direction: column;
+    }
+    .AppStores{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .beyourself{
+        padding-left: 2rem;
+    }
+    .everything{
+        flex-direction: column;
+    }
+    .AppStores{
+        display: flex;
+        justify-content: start;
+        width: 110%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .beyourself{
+        padding-left: 2rem;
+    }
+    .everything{
+        flex-direction: column;
+    }
+    .AppStores{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .beyourself{
+        padding-left: 2rem;
+    }
+    .everything{
+        flex-direction: column;
+    }
+    .AppStores{
+        display: flex;
+        justify-content: start;
+    }
+    .group{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
