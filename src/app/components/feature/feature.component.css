@@ -1,38 +1,77 @@
-.box1{
-    height: 100%;
+.allboxes{
     width: 70%;
 }
 
+@media only screen and (max-width: 1133px){
+    .allboxes{
+        width: 50%
+    }
+    .box3{
+        width: 50% !important;
+    }
+}
 
-@media only screen and (max-width: 540px) {
+
+@media only screen and (max-width: 793px) {
+    .pictures{
+        width: 100%;
+    }
+    .box1{
+        display: inline-block;
+    }
+    .box2{
+        display: inline-block;
+    }
+    .box3{
+        justify-content: center !important;
+        width: 70% !important;
+    }
+    
+}
+
+@media only screen and (max-width: 756px) {
+    .allboxes{
+        width: 50%;
+    }
+    .pictures{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box3{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 505px) {
     .col{
         align-items: center;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+    h5{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .box3{
+        width: 50% !important;
+    }
 }
 
-@media only screen and (max-width: 720px) {
-    .col{
-        align-items: center;
+@media only screen and (max-width: 281px) {
+    .pictures{
+        justify-content: center;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
-    .box1{
-        width: 70% !important;
+    .allboxes{
+        width: 50% !important;
     }
+
 }
 
-@media only screen and (max-width: 960px){
-    .box1{
-        width: 80% !important;
-    }
-}
 
-@media only screen and (max-width: 1140px){
-    .box1{
-        width: 80% !important;
-    }
-}

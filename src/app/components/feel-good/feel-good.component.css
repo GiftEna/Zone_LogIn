@@ -34,8 +34,14 @@
         width: 110%;
         margin-right: 3rem;
     }
-    
+    .googleplay{
+        width: 30%;
+    }
+    .appstore{
+        width: 30%;
+    }
 }
+    
 
 @media only screen and (max-width: 870px) {
     .beyourself{
@@ -50,10 +56,17 @@
         width: 100%;
     }
     .group{
-        width: 95%;
+        width: 90%;
         justify-content: center;
     }
+    .googleplay{
+        width: 20%;
+    }
+    .appstore{
+        width: 20%;
+    }
 }
+
 
 @media only screen and (max-width: 720px) {
     .beyourself{
@@ -93,9 +106,20 @@
     .AppStores{
         display: flex;
         justify-content: start;
-        width: 100%;
+        margin-top: 35px !important;
+    }
+    .summary{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .googleplay{
+        width: 35%;
+    }
+    .appstore{
+        width: 35%;
     }
 }
+
 
 @media only screen and (max-width: 335px) {
     .generaltext{
@@ -107,16 +131,51 @@
     .everything{
         flex-direction: column;
     }
+    .summary{
+        margin: 0 !important;
+        width: 100% !important;
+    }
     .AppStores{
         display: flex;
         justify-content: start;
+        margin-top: 30px !important;
     }
     .group{
         display: none;
     }
+    .googleplay{
+        width: 40%;
+    }
+    .appstore{
+        width: 40%;
+    }
 }
 
-
+@media only screen and (max-width: 281px) {
+    .summary{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .AppStores{
+        margin-top: 30px !important;
+    }
+    .googleplay{
+        width: 35%;
+    }
+    .appstore{
+        width: 35%;
+    }
+    .beyourself{
+        margin-left: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
 
 
 

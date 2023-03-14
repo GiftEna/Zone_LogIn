@@ -149,7 +149,7 @@ select {
     }
 
     .form-img {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -159,7 +159,7 @@ select {
     }
 
     .form-img {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -169,13 +169,13 @@ select {
     }
 
     .form-img {
-        width: 95%;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 540px) {
     .form {
-        width: 55%;
+        width: 85%;
     }
 
     .form-img {
@@ -185,7 +185,7 @@ select {
 
 @media only screen and (max-width: 412px) {
     .form {
-        width: 70%;
+        width: 90%;
     }
 
     .form-img {
